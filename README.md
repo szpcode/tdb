@@ -12,7 +12,7 @@ Example
 package main
 
 
-import "tdb"
+import "github.com/szpcode/tdb"
 import "fmt"
 
 func main() {
