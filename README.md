@@ -31,8 +31,8 @@ func main() {
 
     fmt.Println("sql2: "+ sql2)
 
-    tdb.BindStrValue(":surname:", "Now ' 1 = 1 ")
-    sql3 := tdb.Prepare("SELECT * FROM users WHERE surname LIKE %:surname:%")
+    tdb.BindStrValue(":surname:", "%Now ' 1 = 1 %")
+    sql3 := tdb.Prepare("SELECT * FROM users WHERE surname LIKE :surname:")
 
     fmt.Println("sql3: "+ sql3)
 
