@@ -1,7 +1,7 @@
 README
 ======
 
-### What is Tools Databse for golang (tdb)?
+### What is Tools Database for golang (tdb)?
 -----------------
 Tools that prevent SQL injection attacks for dynamic numbers of parameters.
 
